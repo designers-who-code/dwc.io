@@ -3,50 +3,100 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/BentonSans-Light.otf");
+  font-weight: 300;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/BentonSans-Book.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/BentonSans-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/BentonSans-Bold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+$text-color: #fff;
+$font-family-sans-serif: 'Benton Sans';
+
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+html {
+	color: #fff;
+	font-size: 10px;
+}
+
+body {
+	font-family: 'BentonSans-Book';
+}
+
+.site-wrapper {
+	padding-top: 10rem;
+	position: relative;
+
+	&:before {
+		background: url('../images/site-background@2x.png') 50% 50% no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 100vh;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	&:after {
+		background: none!important;
+		border: 10px solid rgba(255, 255, 255, 0.5);
+		content: '';
+		display: block;
+		left: 0;
+		min-height: 100vh;
+		pointer-events: none;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.site-logo a {
+	display: block;
+}
+
+.site-nav {
+	ul {
+		list-style-type: none;
+		margin: 3rem 0;
+		padding: 0;
+	}
+
+	li {
+		margin: 1rem 0;
+	}
+
+	a {
+		color: #fff;
+		cursor: pointer;
+		display: block;
+		font-family: "Staat";
+		font-size: 2.4rem;
+		line-height: 1em;
+	}
+}
