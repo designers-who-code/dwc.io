@@ -2,7 +2,7 @@
 title: Designers Who Code
 email: info@dwc.io
 description: > # this means to ignore newlines until "baseurl:"
-  We’re a community of more than 2,000 designers and developers interested in the intersection of design and development in technology.
+  We’re a community of more than 2,000 people interested in the intersection of design and development in technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dwc.io" # the base hostname & protocol for your site
 twitter_username: dwcsf

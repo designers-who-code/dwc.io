@@ -5,24 +5,64 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             {% include header.html %}
           </div>
-
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <div class="page-content">
-                {{ content }}
+              {{ content }}
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section__content">
+            <div class="row">
+              <div class="col-sm-8 col col-sm-offset-4">
+                <div class="event-row">
+                <div class="event">
+                  <div class="event__date">SEPTEMBER 13th, 2015</div>
+                  <div class="event__title">Designer Happy Hour</div>
+                  <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
+                  <div class="event__footer">
+                    <div class="event__location">The Minna Gallery</div>
+                    <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="event__date">SEPTEMBER 13th, 2015</div>
+                  <div class="event__title">Designer Happy Hour</div>
+                  <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
+                  <div class="event__footer">
+                    <div class="event__location">The Minna Gallery</div>
+                    <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="event__date">SEPTEMBER 13th, 2015</div>
+                  <div class="event__title">Designer Happy Hour</div>
+                  <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
+                  <div class="event__footer">
+                    <div class="event__location">The Minna Gallery</div>
+                    <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
+                  </div>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="container">
-        {% include footer.html %}
-      </div>
     </div>
+
+
+    <div class="container">
+    </div>
+    
   </body>
 
 </html>
