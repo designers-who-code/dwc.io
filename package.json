@@ -1,0 +1,23 @@
+{
+  "name": "designerswhocode",
+  "version": "1.0.0",
+  "description": "A website for the Designers Who Code community.",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertnealan/designerswhocode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertnealan/designerswhocode/issues"
+  },
+  "homepage": "https://github.com/robertnealan/designerswhocode#readme"
+}
