@@ -27,5 +27,3 @@ defaults:
       type: events
     values:
       layout: event
-      
-gems: [jekyll-sitemap]
