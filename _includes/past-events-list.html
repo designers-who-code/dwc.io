@@ -1,0 +1,20 @@
+<ul class="events-list">
+  {% assign eventsList = site.events | sort: 'startDate' %}
+  {% for event in eventsList %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
+    {% if posttime <= nowunix %}
+      <li class="event">
+        <a href="{{ event.url }}">
+          <div class="event__date">{{ event.date | date: '%B %d, %Y' }} @ {{ event.startTime | date: '%-I%p' }}</div>
+          <div class="event__title">{{ event.title }}</div>
+          <div class="event__description">{{ event.description }}</div>
+          <div class="event__footer">
+            <div class="event__location">{{ event.location }}</div>
+            <div class="event__address">{{ event.address }}</div>
+          </div>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

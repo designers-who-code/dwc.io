@@ -1,14 +1,40 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  {% include head.html %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <body>
+    <div class="site-wrapper">
+      <div class="container-fluid">
+				
+				<div class="row">
+				  <div class="col-sm-4">
+				    {% include navigation.html %}
+				  </div>
+				  <div class="col-sm-8">
+				    <div class="section post__header">
+				      <div class="section__body">
+				        <div class="post">
 
-</div>
+								  <header class="post-header">
+								    <h1 class="post-title">{{ page.title }}</h1>
+								  </header>
+
+								  <article class="post-content">
+								    {{ content }}
+								  </article>
+
+								</div>      
+				      </div>
+				    </div>
+				  </div>
+				</div>
+        
+
+        {% include section-upcoming-events--short.html %}
+        
+      </div>
+    </div>
+  </body>
+
+</html>

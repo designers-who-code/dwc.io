@@ -6,58 +6,12 @@
   <body>
     <div class="site-wrapper">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
-            {% include header.html %}
-          </div>
-          <div class="col-sm-8">
-            <div class="page-content">
-              <div class="section section--hero">
-							  <div class="section__content">
-							    <h2>{{ site.description }}</h2>
-							  </div>
-							</div>
-            </div>
-          </div>
-        </div>
 
-        <div class="section">
-          <div class="row">
-            <div class="col-sm-8 col col-sm-offset-4">
-              <div class="event-row">
-              <div class="event">
-                <div class="event__date">SEPTEMBER 13th, 2015</div>
-                <div class="event__title">Designer Happy Hour</div>
-                <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
-                <div class="event__footer">
-                  <div class="event__location">The Minna Gallery</div>
-                  <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
-                </div>
-              </div>
+        {% include header-home.html %}
 
-              <div class="event">
-                <div class="event__date">SEPTEMBER 13th, 2015</div>
-                <div class="event__title">Designer Happy Hour</div>
-                <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
-                <div class="event__footer">
-                  <div class="event__location">The Minna Gallery</div>
-                  <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
-                </div>
-              </div>
+        {% include section-upcoming-events--short.html %}
 
-              <div class="event">
-                <div class="event__date">SEPTEMBER 13th, 2015</div>
-                <div class="event__title">Designer Happy Hour</div>
-                <div class="event__description">An evening of socializing with like-minded individuals in the industry over an after-work happy hour.</div>
-                <div class="event__footer">
-                  <div class="event__location">The Minna Gallery</div>
-                  <div class="event__address">111 Minna St, San Francisco, CA. 94103</div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% include section-contact.html %}
       </div>
     </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Contact
+permalink: /contact/
 ---
 
 Founded in 2014 to create a community that bridges the design/development gap, Designers Who Code has grown to more than 2,000 members and has hosted events in partnership with companies like Adobe, Heroku, and Zurb. 
