@@ -1,6 +1,6 @@
 <ul class="events-list">
   {% assign eventsList = site.events | sort: 'startDate' %}
-  {% for event in eventsList %}
+  {% for event in eventsList reversed %}
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
     {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
     {% if posttime <= nowunix %}

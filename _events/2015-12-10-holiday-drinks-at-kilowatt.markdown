@@ -1,5 +1,7 @@
 ---
-categories: social drinks
+title: Holiday Drinks at Kilowatt
+categories: social
+tags: drinks, happy hour, kilowatt, sf creative coders
 
 startTime: 	18:00:00-08:00
 location: Kilowatt

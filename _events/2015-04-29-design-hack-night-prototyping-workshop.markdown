@@ -1,7 +1,9 @@
 ---
-categories: workshop hacknight
+categories: workshop
+tags: workshop, hacknight, carbon five
 
 startTime: 	18:00:00-08:00
+endTime: 21:00:00-8:00
 location: Carbon Five
 address: 585 Howard St St, San Francisco, CA 94105
 description: An evening of conversation, making, and feedback, as inspired by the Tinderbox Hack Night. Come for a chance to share your insights and learn from your peers.
