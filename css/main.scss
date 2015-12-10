@@ -181,6 +181,19 @@ body {
 	}
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+	border: 2px solid $color-dark;
+	border-radius: 0;
+	padding: 1rem 1rem;
+	&:focus {
+		border: 2px solid #e00;
+		box-shadow: none;
+		outline: none;
+	}
+}
+
 .section__body {
 	padding: 4rem 0;
 }
