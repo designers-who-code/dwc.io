@@ -6,7 +6,7 @@ startTime: 18:00:00-08:00
 endTime: 21:00:00-08:00
 location: Novela
 address: 662 Mission St, San Francisco, CA 94105
-description: A casual night after work happy hour in a book-themed lounge.
+description: A casual night after work happy hour in a book-themed lounge in central SOMA.
 meetupLink: http://www.meetup.com/designers-who-code/events/220102566/
 ---
 

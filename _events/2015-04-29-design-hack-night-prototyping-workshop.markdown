@@ -1,6 +1,6 @@
 ---
 categories: workshop
-tags: workshop, hacknight, carbon five
+tags: workshop, hacknight, carbon five, neon lab
 
 startTime: 	18:00:00-08:00
 endTime: 21:00:00-8:00
