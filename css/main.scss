@@ -183,15 +183,21 @@ body {
 
 input[type="text"],
 input[type="email"],
-textarea {
+textarea,
+.form-control {
 	border: 2px solid $color-dark;
 	border-radius: 0;
-	padding: 1rem 1rem;
+	padding: 2rem 1.25rem;
 	&:focus {
 		border: 2px solid #e00;
 		box-shadow: none;
 		outline: none;
 	}
+}
+
+textarea.form-control {
+	height: 12rem;
+	padding: 1rem 1.25rem;
 }
 
 .section__body {
