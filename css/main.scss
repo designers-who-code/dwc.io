@@ -52,7 +52,6 @@ body {
 
 .site-wrapper {
 	background: #fff;
-	max-width: 144rem;
 	min-height: 100vh;
 	padding: 8rem;
 	position: relative;
@@ -60,6 +59,10 @@ body {
 	@media screen and (max-width: $screen-md) {
 		padding: 3rem 0;
 	}
+}
+
+.container-fluid {
+	max-width: 144rem;
 }
 
 .site-header {
