@@ -3,34 +3,6 @@
 ---
 @charset "utf-8";
 
-@font-face {
-  font-family: 'Benton Sans';
-  src: url("../fonts/BentonSans-Light.otf");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Benton Sans';
-  src: url("../fonts/BentonSans-Book.otf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Benton Sans';
-  src: url("../fonts/BentonSans-Medium.otf");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Benton Sans';
-  src: url("../fonts/BentonSans-Bold.otf");
-  font-weight: 600;
-  font-style: normal;
-}
-
 $grid-gutter-width: 60px;
 $text-color: #1c1c1c;
 
@@ -48,6 +20,7 @@ html {
 body {
 	background: $color-primary;
 	font-family: $font-family-sans-serif;
+	font-weight: 300;
 }
 
 .site-wrapper {
@@ -415,6 +388,10 @@ h4 {
 	h3, h4 {
 		margin-top: 3rem;
 	}
+}
+
+.btn {
+	font-weight: 300;
 }
 
 .btn-primary {

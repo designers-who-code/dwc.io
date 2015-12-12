@@ -1,14 +1,14 @@
 <ul class="events-list">
   {% for event in site.events %}
-    {% capture nowunix %}{{'now' | date: '%Y%m%%d'}}{% endcapture %}
-    {% capture posttime %}{{ event.date | date: '%Y%m%%d'}}{% endcapture %}
-    {% capture pagedate %}{{ page.date | date: '%Y%m%%d'}}{% endcapture %}
+    {% capture nowunix %}{{'now' | date: '%Y%m%d'}}{% endcapture %}
+    {% capture posttime %}{{ event.date | date: '%Y%m%d'}}{% endcapture %}
+    {% capture pagedate %}{{ page.date | date: '%Y%m%d'}}{% endcapture %}
     {% assign upcomingevents = false %}
 
     {% if posttime >= nowunix and posttime != pagedate %}
       <li class="event">
         <a href="{{ event.url }}">
-          <div class="event__date">{{ event.startTime | date: '%B %d, %Y' }}</div>
+          <div class="event__date">{{ event.date | date: '%B %d, %Y' }}</div>
           <div class="event__title">{{ event.title }}</div>
           <div class="event__description">{{ event.description }}</div>
           <div class="event__footer">
@@ -25,7 +25,7 @@
     <li class="event">
       <a href="/contact">
         <div class="event__title">Uh oh!</div>
-        <div class="event__description">It looks like we don't have any other upcoming events. If you'd be interested in sponsoring, hosting, or planning one, please do get in touch.</div>
+        <div class="event__description">It looks like we don't have any other upcoming events. If you're be interested in sponsoring, hosting, or planning one, please get in touch.</div>
         <div class="event__footer">
           <div class="event__location">Your place</div>
           <div class="event__address">(or ours?)</div>
