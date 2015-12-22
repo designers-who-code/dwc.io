@@ -4,7 +4,7 @@
     {% capture posttime %}{{ event.date | date: '%Y%m%d'}}{% endcapture %}
     {% capture pagedate %}{{ page.date | date: '%Y%m%d'}}{% endcapture %}
     {% assign upcomingevents = false %}
-
+    
     {% if posttime >= nowunix and posttime != pagedate %}
       <li class="event">
         <a href="{{ event.url }}">

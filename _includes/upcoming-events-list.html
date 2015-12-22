@@ -1,13 +1,12 @@
 <ul class="events-list">
   {% assign eventsList = site.events | sort: 'date' %}
   {% for event in eventsList %}
-    {% capture nowunix %}{{'now' | date: '%Y%m%%d'}}{% endcapture %}
-    {% capture posttime %}{{ event.date | date: '%Y%m%%d'}}{% endcapture %}
-    {% capture pagedate %}{{ page.date | date: '%Y%m%%d'}}{% endcapture %}
+    {% capture nowunix %}{{'now' | date: '%Y%m%d'}}{% endcapture %}
+    {% capture posttime %}{{ event.date | date: '%Y%m%d'}}{% endcapture %}
+    {% capture pagedate %}{{ page.date | date: '%Y%m%d'}}{% endcapture %}
     {% assign upcomingevents = false %}
 
     {% if posttime >= nowunix and posttime != pagedate %}
-
       <li class="event">
         <a href="{{ event.url }}">
           <div class="event__date">{{ event.date | date: '%B %d, %Y' }} @ {{ event.startTime | date: '%-I%p' }}</div>
