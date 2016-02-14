@@ -12,7 +12,7 @@ meetupLink: http://www.meetup.com/designers-who-code/events/219643017/
 
 ###About
 
-Welcome to our 2nd Design Hack Night, an evening of conversation, making, and feedback.  Inspired by the  Tinderbox Hack Night, Design Hack Night is a chance to share your insights and learn from your peers.  Bring your projects, your laptop, sketchbooks, books — anything you’d like to share or work on! 
+Welcome to our 2nd Design Hack Night, an evening of conversation, making, and feedback.  Inspired by the  Tinderbox Hack Night, Design Hack Night is a chance to share your insights and learn from your peers.  Bring your projects, your laptop, sketchbooks, books — anything you’d like to share or work on!
 
 We’ll start the night with a series of lightning talks focusing on a variety of topics from a tool/technique, inspiration, a book, a product launch, a thought leader, the weather or more — anything you’ve discovered that impacts the craft of design.  No need to prepare any slides, but if you know you’d like to speak please email me at rob@atomidesign.com to guarantee a spot.
 
@@ -30,14 +30,14 @@ Please check parkme.com for additional nearby parking options.
 
 ###Schedule
 
-6:00pm-6:30:   Networking, food/drinks, & lightning talk signups 
-6:30pm-7:00:   Lightning talks 
+6:00pm-6:30:   Networking, food/drinks, & lightning talk signups
+6:30pm-7:00:   Lightning talks
 7:00pm-8:30:   Hands on hacking time (1 group for feedback, 1 group for working on projects)
 
 ###Sponsors
 
 Thanks to all our awesome sponsors for putting together Design Hack Night!
 
-carbonfive.com 
-neon-lab.com 
+carbonfive.com
+neon-lab.com
 atomidesign.com
