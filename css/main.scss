@@ -9,9 +9,9 @@ $text-color: #1c1c1c;
 $color-dark: #1c1c1c;
 $color-primary: #e00;
 $font-family-sans-serif: 'Benton Sans';
+$link-color: $color-primary;
 
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-
 
 html {
 	font-size: 10px;
@@ -24,7 +24,7 @@ body {
 }
 
 .site-wrapper {
-	background: #fff;
+	background: #fefefe;
 	min-height: 100vh;
 	padding: 8rem;
 	position: relative;
@@ -85,6 +85,7 @@ body {
 		&:hover,
 		&:focus {
 			background: $color-primary;
+			color: #fff;
 			text-decoration: none;
 		}
 	}
@@ -125,6 +126,29 @@ body {
 	columns: 300px 2;
 }
 
+.logos {
+	div {
+		box-sizing: border-box;
+		padding: 2rem;
+		width: 33.33%;
+		float: left;
+		text-align: center;
+		height: 8rem;
+		margin-bottom: 4rem;
+	}
+
+	img {
+		max-height: 6rem;
+		max-width: 100%;
+	}
+
+	@media screen and (max-width: $screen-sm-min) {
+		div {
+			width: 50%;
+		}
+	}
+}
+
 .section__header {
 	border-bottom: 1px solid #fff;
 	padding: 4rem 0;
@@ -132,6 +156,10 @@ body {
 
 	a {
 		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	h3 {
@@ -394,16 +422,40 @@ h4 {
 	font-weight: 300;
 }
 
-.btn-primary {
+a {
+	color: $color-primary;
+
+	&:hover {
+		color: darken($color-primary, 10%);
+	}
+}
+
+
+.btn-default {
 	border: none;
 	border-radius: 0;
-	background: $color-dark;
+	background: #000;
 	color: #fff;
 	transition: background 0.25s ease-in-out, border 0.25s ease-in-out, color 0.25s ease-in-out;
 	
 	&:hover,
 	&:focus {
-		background: $color-primary;
+		background: darken($color-primary, 10%);
+		border: none;
+		color: #fff;
+	}
+}
+
+.btn-primary {
+	border: none;
+	border-radius: 0;
+	background: $color-primary;
+	color: #fff;
+	transition: background 0.25s ease-in-out, border 0.25s ease-in-out, color 0.25s ease-in-out;
+	
+	&:hover,
+	&:focus {
+		background: darken($color-primary, 10%);
 		border: none;
 		color: #fff;
 	}
