@@ -5,10 +5,10 @@ tags: workshop, hacknight, carbon five, neon lab, mark kawano, wework, storehous
 
 startTime: 	18:00:00-08:00
 endTime: 21:00:00-8:00
-location: Carbon Five
+location: WeWork Golden Gate
 address: 25 Taylor St, San Francisco, CA 94102
 description: Join us for a special event featuring a talk by Mark Kawano, the CEO and co-founder of Storehouse, maker of the visual storytelling app that won Apple’s 2014 Design Awards.
-meetupLink: http://www.meetup.com/designers-who-code/events/221935947/
+meetupLink: http://www.meetup.com/designers-who-code/events/207696222/
 ---
 
 ###About

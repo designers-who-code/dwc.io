@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="site-wrapper">
+      <div class="container-fluid">
+				
+				<div class="row">
+				  <div class="col-sm-4">
+				    {% include navigation.html %}
+				  </div>
+				  <div class="col-sm-8">
+				    <div class="section post__header">
+				      <div class="section__body">
+				        <div class="post">
+
+
+								  <header class="post-header">
+								    <h1 class="post-title">{{ page.title }}</h1>
+								  </header>
+
+								  <article class="post-content">
+								  	{% include contact-form.html %}
+
+								    {{ content }}
+								  </article>
+
+								</div>      
+				      </div>
+				    </div>
+				  </div>
+				</div>
+        
+
+        {% include section-upcoming-events--short.html %}
+        
+      </div>
+    </div>
+  </body>
+
+</html>
