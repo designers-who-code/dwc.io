@@ -12,11 +12,11 @@ meetupLink: http://www.meetup.com/designers-who-code/events/219643691/
 
 ###About the Event
 
-A happy belated 2016 to everyone! We've got several events in the works over the next few months, but figured we'd start things off by revisiting the Natoma Cabana for an after-work designer happy hour. If you haven't been before these events are casual get togethers to get everyone out of the office on time and meet other like-minded people in the industry.
+After much delay we're dusting things off for the new year and want to start with a happy hour at one of our favorite Soma bars, the Natoma Cabana. No hard work, no sitting through long talks, just good old-fashioned socializing with fellow designers and developers.
 
-We'll have a spiffy Designers Who Code sign so you can find us and will be sure to have "Hello my name is" stickers in your favorite colors on-hand.
+We've got our new logo printed on some spiffy heavyweight cardstock so you can find us easier than ever before, and will have everyone's favorite "Hello my name is..." stickers on-hand.
 
-So get off your computer, drag a few coworkers, and come meet socialize over a drink (or two)!
+So get off your computer, drag a few coworkers, and come meet like-minded people in the industry over a drink or two!
 
 ###Location
 
