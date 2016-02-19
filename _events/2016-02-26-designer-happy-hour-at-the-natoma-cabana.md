@@ -7,7 +7,7 @@ endTime: 21:00:00-08:00
 location: Natoma Cabana
 address: 662 Mission St, San Francisco, CA 94105
 description: A casual night after work happy hour in a cabana-themed lounge in central SOMA.
-meetupLink: http://www.meetup.com/designers-who-code/events/219643691/
+meetupLink: http://www.meetup.com/designers-who-code/events/228960093/
 ---
 
 ###About the Event
