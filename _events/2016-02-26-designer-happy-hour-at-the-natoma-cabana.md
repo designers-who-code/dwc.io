@@ -18,10 +18,14 @@ We've got our new logo printed on some spiffy heavyweight cardstock so you can f
 
 So get off your computer, drag a few coworkers, and come meet like-minded people in the industry over a drink or two!
 
-###Location
+![Natoma Cabana](/images/event-natomacabana.jpeg)
 
-[Natoma Cabana @ 90 Natoma St, San Francisco, CA](https://maps.google.com/maps?f=q&hl=en&q=90+Natoma+St%2C+San+Francisco%2C+CA%2C+us)
+###Location
 
 Natoma Cabana is located in the SoMa neighborhood of downtown San Francisco and is approximately a 3 minute walk from Montgomery St BART/Muni station. While taking public transportation is encouraged, there’s a paid parking lot at the Red Cross building @ 85 2nd St and other nearby garages if necessary.
 
 Please check parkme.com for additional nearby parking options.
+
+###Sponsors
+
+Interested in sponsoring this event? Check out our [sponsors page](/sponsors) for more info on benefits and how to get in touch! 
