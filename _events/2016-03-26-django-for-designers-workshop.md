@@ -5,7 +5,7 @@ tags: workshop, san francisco, hello web app, django, python
 startTime: 11:00:00-08:00
 endTime: 15:00:00-08:00
 location: 1920C
-address: 1920c @ 950 Grant Avenue, San Francisco, CA 94108
+address: 950 Grant Avenue, San Francisco, CA 94108
 description: A half-day weekend workshop teaching designers how to get started building their own web application.
 meetupLink: #
 ---
@@ -38,11 +38,11 @@ Outside of being an author she’s also the creator and founder of weddinglovely
 
 ###Location
 
-[1920c @ 950 Grant Avenue, San Francisco, CA 94108]()
+[1920c @ 950 Grant Avenue, San Francisco, CA 94108](https://www.google.com/maps/place/950+Grant+Ave,+San+Francisco,+CA+94108/@37.7957488,-122.4085396,17z/data=!3m1!4b1!4m2!3m1!1s0x808580f4af85a709:0x29396a975ece1b5)
 
 1920c is located in the heart of Chinatown near the Financial District and numerous Muni lines (the 8, 30, 45, 10, 12, and 1 to be specific). For the motivated folks out there it’s approximately a 15 minute walk from both Powell and Montgomery BART stations.
 
-As always taking public transportation or cycling is encouraged, but there is a parking garage located at [ask Molly for details] for a reasonable $___/day.
+As always taking public transportation or cycling is encouraged, but there is a parking garage located nearby (more details TBA).
 
 ###FAQ
 
@@ -66,8 +66,12 @@ This is a self-guided workshop — we’re all going to work together and mentor
 1:00pm–3:00pm — We continue working on our web apps (with a cookie break somewhere in the middle!)
 3:00pm — Head home!
 
-###Sponsors
+###Brought to you By
 
-1920c
-Hello Web App
-Heavyweight
+![1920c](/images/logo-1920c.png)
+
+[1920c.com](http://1920c.com)
+
+![Hello Web App](/images/logo-hellowebapp.svg)
+
+[hellowebapp.com](https://hellowebapp.com/)
