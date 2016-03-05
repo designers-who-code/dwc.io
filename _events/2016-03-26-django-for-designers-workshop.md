@@ -12,7 +12,7 @@ meetupLink: http://www.meetup.com/designers-who-code/events/229374622/
 
 ###About the Event
 
-Join us for a [4] hour self-guided weekend workshop perfect for you designers looking to brush up your development chops. Led by Tracy Osborn, author of [Hello Web App](hellowebapp.com), this is an introductory course intended for designers with basic/minimal development knowledge.
+Join us for a [4] hour self-guided weekend workshop perfect for you designers looking to brush up your development chops. Led by Tracy Osborn, author of [Hello Web App](http://hellowebapp.com), this is an introductory course intended for designers with basic/minimal development knowledge.
 
 With Hello Web App, we’re going to build a “collection of things,” which you can extend to build something unique (for example, Pinterest is basically a collection of photos!) The tutorial will walk you through setting up Django, creating your website, adding registration and login forms, setting up your database, fleshing out your web app, and deploying on Heroku.
 
