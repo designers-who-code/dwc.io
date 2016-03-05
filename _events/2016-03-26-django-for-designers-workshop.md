@@ -7,7 +7,7 @@ endTime: 15:00:00-08:00
 location: 1920C
 address: 950 Grant Avenue, San Francisco, CA 94108
 description: A half-day weekend workshop teaching designers how to get started building their own web application.
-meetupLink: #
+meetupLink: http://www.meetup.com/designers-who-code/events/229374622/
 ---
 
 ###About the Event
@@ -17,6 +17,8 @@ Join us for a [4] hour self-guided weekend workshop perfect for you designers lo
 With Hello Web App, we’re going to build a “collection of things,” which you can extend to build something unique (for example, Pinterest is basically a collection of photos!) The tutorial will walk you through setting up Django, creating your website, adding registration and login forms, setting up your database, fleshing out your web app, and deploying on Heroku.
 
 If you’ve ever wanted to learn how to build a basic web app, this is the workshop for you!
+
+Tickets are $5 and can be [purchased at ti.to](https://ti.to/designers-who-code/django-for-designers-workshop). All ticket proceeds will go towards food and drinks for attendees.
 
 All skill levels welcome — we’ll have plenty of mentors for any questions you have as you work through the book. [See a sample of the book here.](http://hellowebapp.com/sample)
 
@@ -28,7 +30,7 @@ Tickets are $5 and can be purchased at [Eventbrite?]. All ticket proceeds will g
 
 ###About Tracy Osborn
 
-<!---Photo (let me know if we need larger): https://dl.dropboxusercontent.com/u/3118244/beach-lg.jpg-->
+![Tracy Osborn](/images/speaker-tracy-osborn.jpg)
 
 Tracy is a designer, developer, author, speaker, and “entreprenerd”.
 
