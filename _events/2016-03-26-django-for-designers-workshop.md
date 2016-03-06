@@ -6,7 +6,7 @@ startTime: 11:00:00-08:00
 endTime: 15:00:00-08:00
 location: 1920C
 address: 950 Grant Avenue, San Francisco, CA 94108
-description: A half-day weekend workshop teaching designers how to get started building their own web application.
+description: A half-day weekend workshop teaching designers how to get started building their own web application based on the popular eBook Hello Web App.
 meetupLink: http://www.meetup.com/designers-who-code/events/229374622/
 ---
 
