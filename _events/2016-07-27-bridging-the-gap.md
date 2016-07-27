@@ -19,9 +19,9 @@ Join us for our second-ever Designers Who Code NYC meetup, co-sponsored by [Code
 
 _Starting at 7:30pm_
 
-* Colleen O'Banion | UX at Google
-* Eric Frank | UX Engineering at MM.LaFleur
-* Zoraida Ingles | Designer at C4Q
+* Colleen O'Banion (UX at Google)
+* Eric Frank (UX Engineering at MM.LaFleur)
+* Zoraida Ingles (Designer at C4Q)
 
 ###About MM.LaFleur
 
