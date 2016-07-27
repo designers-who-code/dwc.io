@@ -32,4 +32,4 @@ MM.LaFleur is a New York City-based brand that provides personal styling and an 
 Code Fellows NYC is offering all Designers Who Code members a 50% discount to be used in conjunction with the current early bird discount for their upcoming Code 101s on August 13th @Alley Chelsea and August 14th @Colab Factory. We will also be raffling off some awesome Code Fellows swag following the talk! 
 Join us for an evening of incredible presentations at MongoDB's headquarters.  Food, drinks and beer will be available to guests courtesy of MongoDB.
 
-![Code Fellows Logo](/images/codefellows.jpg)
+![Code Fellows Logo](/images/logo-codefellows.jpg)
