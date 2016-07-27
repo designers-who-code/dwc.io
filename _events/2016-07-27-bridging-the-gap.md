@@ -6,7 +6,7 @@ title: Bridging the Gap w/Code Fellows
 startTime: 19:00:00-08:00
 endTime: 21:00:00-08:00
 location: MM.LaFleur
-address: 611 Broadway #401, New York, NY, 10012
+address: 611 Broadway &#35;401, New York, NY, 10012
 description: Join us for our second-ever Designers Who Code NYC meetup, co-sponsored by Code Fellows and hosted by MM.LaFleur.
 meetupLink: http://www.meetup.com/Designers-Who-Code-NYC/events/232730746/
 ---
