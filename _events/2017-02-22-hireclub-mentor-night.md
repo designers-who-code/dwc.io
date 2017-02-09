@@ -8,7 +8,8 @@ endTime: 21:00:00-08:00
 location: General Assembly
 address: 5th Floor, 225 Bush Street, San Francisco, CA
 description: We're teaming up with HireClub to help put on a mentor workshop!
-meetupLink: https://www.meetup.com/designers-who-code/events/237588668/
+buttonText: Eventbrite
+meetupLink: https://www.eventbrite.com/e/hireclub-mentor-workshop-tickets-31498924130
 ---
 
 ###About the Event 
