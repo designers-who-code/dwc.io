@@ -8,7 +8,7 @@ $text-color: #1c1c1c;
 
 $color-dark: #1c1c1c;
 $color-primary: #e00;
-$font-family-sans-serif: 'Benton Sans';
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $link-color: $color-primary;
 
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
